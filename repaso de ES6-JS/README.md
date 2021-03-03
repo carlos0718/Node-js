@@ -6,7 +6,7 @@
     + Node 02 Nivelación
 * const-let-var
 * template string
-* funcion flecha
+* función flecha
 * destructuración 
 * callback básico
 * callback hell
