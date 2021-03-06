@@ -32,4 +32,10 @@
           *  node index --base 9 --limite 15 -v
     * se instala 'npm install colors' : https://www.npmjs.com/package/colors
           * se usa para darle color al texto.
-
+  * Options:
+      -b, --base        Es la base de la tabala de multiplicar   [number] [required]
+      -l, --limite      Es el limte del multiplicador         [number] [default: 10]
+      -v, --visualizar  Muestra tabala de multiplicar en consola
+                                              [boolean] [required] [default: false]
+          --help        Show help                                          [boolean]
+          --version     Show version number  
