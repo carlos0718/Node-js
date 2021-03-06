@@ -3,7 +3,7 @@
     * $ npm install inquierer
 * se instala npm colors.
 
-* 
+![](mvc.png)
 
 
 
