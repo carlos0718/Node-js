@@ -3,6 +3,7 @@
     * $ npm install inquierer
 * se instala npm colors.
 
+* Diagrama de Capas de la app :
 ![](mvc.png)
 
 
