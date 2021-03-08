@@ -3,7 +3,7 @@ const fs = require('fs');
 const name = './database/data.json';
 
 const saveData = (data) => {
-    fs.writeFileSync(name,JSON.stringify( data));
+    fs.writeFileSync(name,JSON.stringify( data,null,5));
 }
 
 const getData = () => {

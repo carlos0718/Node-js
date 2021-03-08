@@ -24,8 +24,11 @@ const main = async() => {
             case 2:
 
                 const allTasks = taskRepository.getAllTask()
-
-                console.log(allTasks);
+                let x = 0;
+                for ( i in allTasks){
+                    x++;
+                    console.log(`${x} -${allTasks[i].title}`.blue);
+                }
                 
                 break;
         }
